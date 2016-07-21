@@ -1,0 +1,45 @@
+
+
+.btn-info {
+	padding-top:2px !important;
+	padding-bottom:2px !important;
+}
+
+html, body{
+    height: 100%;
+}
+
+
+
+@media only screen and (max-device-width:480px) {
+    /* For mobile phones: */
+    #side-menu {
+       height:500px ;
+    }
+}
+
+@media only screen and (max-device-width:786px) {
+    /* For mobile phones: */
+    #side-menu {
+       height:500px ;
+    }
+}
+
+ 
+
+#side-menu {
+	height:710px ;
+}
+
+
+
+
+
+
+
+.headerinfo {
+	font-family:sans-serif;
+	font-size: 24px;
+
+}
+

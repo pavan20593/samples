@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+ 	<head>
+  		<title>Bootstrap Example</title>
+  		<meta charset="utf-8">
+  		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+  		<link rel="stylesheet" type="text/css" href="font-awesome-4.5.0/css/font-awesome.css" />
+  		<link rel="stylesheet" href="css/bootstrap.css">
+      <script src="js/jquery-1.12.0.js"></script>
+
+
+
+ 	</head>
+
+	<body>
+    
+    <nav class="navbar navbar-default  col-md-2" style="padding-left:0px;padding-right: 0px;margin-bottom: 0" role="navigation" >
+      
+        <div class="navbar-header" style="background-color:#4B4277;">
+          <button type="button" class="navbar-toggle " data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>  
+        </div>
+      
+
+      <div class="navbar-default sidebar " role="navigation" style="background-color:#4B4277;" >
+            <header class="headerinfo" style="text-align: center;font-size:24px;color:white;">todo </header>
+            <section class="userintro" style="background-color:#93CF5D;padding:8px;">
+                            <p id="username"><img src="images/dp.jpg" class="img-circle" alt="dp" width="30" height="30"><span style="padding-left:5px;"><i class="fa fa-caret-down"></i> </span> <span class="badge" style="float:right;padding:right:40px; background-color:#93CF5D;border:1px solid white">2</span></p>
+                          </section>
+        
+                <div class=" sidebar-nav navbar-collapse" style="padding-bottom:10px;">
+                    <ul class="nav" id="side-menu" style="height:710px;" >
+                        
+                        
+                        <li>
+                          <a href="#"> <span style="color:white;"> <i class="fa fa-eye"></i>  Discover </span></a>
+                        </li>
+
+                        <li>
+                          <a href="#"><span style="color:white;"><i class="fa fa-flask"></i>  UI Kit </span></a>
+                        </li>
+
+                        <li>
+                          <a href="#" style="padding-right:0px;"><span style="color:white;padding:right:20px;"><i class="fa fa-envelope-o"></i> Mail </span><span class="badge pullright" style="float:right; color:white;background-color:#4B4277">3</span></a>
+                        </li>
+
+                        <li>
+                          <a href="#"><span style="color:white;"><i class="fa fa-bars"></i>  Task </span></a>
+                        </li>
+
+                         <li>
+                          <a href="#"><span style="color:white;"><i class="fa fa-pencil"></i> Notes </span></a>
+                        </li>
+
+                        <li>
+                          <a href="#"><span style="color:white;"><i class="fa fa-clock-o"></i>   Timeline </span></a>
+                        </li>
+                    </ul>
+                    <hr>
+
+                    <section class="col-xs-9 " style="bottom:0;">
+                      <span style="color:white;"><i class="fa fa-credit-card"></i></span>
+                    </section>
+
+                    <section class="col-xs-2"  style="bottom:0;">
+                      <span style="color:white;"><i class="fa fa-power-off"></i></span>
+                    </section>
+                    
+                </div>
+                <!-- /.sidebar-collapse -->
+            </div>
+
+    </nav>
+  
+
+		
+  <div class="main">
+ 		<div class="container-fluid " >
+      <header style="margin-left:20%;margin-top:1%;"> Welcome to todo application </header>
+      <hr>
+ 			<div class="row">
+        <div class="col-md-7">
+
+
+ 				  <div class="panel panel-default">
+            <textarea class="form-control" rows="3" placeholder="enter your name"></textarea>
+            <div class="panel-footer">
+              <i class="fa fa-location-arrow"></i>
+              <i class="fa fa-camera"></i>
+              <i class="fa fa-video-camera"></i>
+              <i class="fa fa-microphone"></i>
+              <button type="button" class="btn btn-info" id="postbtn" style="padding-bottom: 2px;padding-top: 2px;">Post</button> 
+            </div>
+          </div>
+
+          <div class="usercomment col-md-6" style="display:block; " >
+            <div class="panel panel-default" >
+              <div class="panel-body">
+                <div class="userdiv">
+                  <section class="userintro" >
+                  <p id="username"><img src="images/dp.jpg" class="img-circle" alt="dp" width="30" height="30"><span style="padding-left:5px;">pavan s </span> <span style="float:right;color:black"><small> 5m ago</small></span> </p>
+                  <p ><span  ><i class="fa fa-cloud " ></i> </span>there are few ways to quickly get started with bootstrap </p>
+                  <span style="font-weight:thin"><i class="fa fa-comment-o"></i> comments(25)</span>
+                  </section>
+                </div>
+              </div>
+              <div class="panel-body" style="padding:0;">
+                <input type="text" class="form-control" placeholder="enter comment" >
+              </div>
+            </div>
+          </div>
+
+          <div class="usermap col-md-6 col-xs-12;" style=" padding-left:10px;">
+            <div class="panel panel-default">
+              <div class="panel-heading" style="background-color:white;padding-bottom: 0px;">
+                <section class="userintro" >
+                  <p id="username"><img src="images/dp.jpg" class="img-circle" alt="dp" width="30" height="30"><span style="padding-left:5px;">pavan s </span> <span style="float:right;"><small> 5m ago</small></span> </p>
+                </section>
+              </div>
+              <div class="panel-body" style="background-color:#EBEEF5">
+               <span style="float:right; padding-right:46%; font-size:30px;color:#FC6A5B;"> <i class="fa fa-map-marker fa-2x" id="redmapmarker"></i></span>
+               <!--<i class="fa fa-caret-up" style="bottom:0;clear:both"></i>-->
+              </div> 
+              <div class="panel-body" style="padding:0;">
+
+                <input type="text" class="form-control" placeholder="enter comment" >
+              </div>
+            </div>
+          </div>
+
+          <div class="panel panel-default col-md-6" style="padding:0;">
+            <i class="fa fa-caret-left" style="float:right;padding-top:20%;padding-right:0;"></i>
+            <div class="panel-body " id="Dribbleinvite" style="background-color:#83DAF6;height:170px;">
+              <span  style="float:right; padding-right:46%;padding-top:10%; font-size:30px;"><i class="fa fa-dribbble"></i> </span> <br />
+              <h4 class="dribbleinvite" style="color:white;text-align:center;clear: both;"> Dribble invitation</h4>
+            </div>
+          </div> <!-- for dribble -->
+
+          <div class="panel panel-default col-md-6" style="padding:0;">
+            <div class="panel-body">
+              <div class="userdiv">
+                  <section class="userintro" >
+                    <p id="username"><img src="images/dp.jpg" class="img-circle" alt="dp" width="30" height="30"><span style="padding-left:5px;">pavan s </span> <span style="float:right;color:black"><small> 5m ago</small></span> </p>
+                    <p ><span  ><i class="fa fa-cloud " style="color:white;"></i> </span>there are few ways to quickly get started with bootstrap </p>
+                    <span style="font-weight:thin"><i class="fa fa-comment-o"></i> comments(25)</span>
+                  </section>
+              </div>
+            </div>
+            <div class="panel-body" style="padding:0;">
+              <input type="text" class="form-control" placeholder="enter comment" >
+            </div>    
+          </div>
+           <!-- drible invite -->
+
+          <div class="panel panel-default col-md-6" style="padding:0;">
+            <div class="panel-body" style="height:auto;">
+              <div class="userdiv">
+                  <section class="userintro" >
+                    <p id="username"><img src="images/dp.jpg" class="img-circle" alt="dp" width="30" height="30"><span style="padding-left:5px;">pavan s </span> <span style="float:right;color:black"><small> 5m ago</small></span> </p>
+                    <p ><span  ><i class="fa fa-cloud " style="color:white;"></i> </span>there are few ways to quickly get started with bootstrap </p>
+                    <span style="font-weight:thin"><i class="fa fa-comment-o"></i> comments(25)</span>
+                  </section>
+              </div>
+            </div>
+            <div class="panel-body" style="padding:0;">
+              <input type="text" class="form-control" placeholder="enter comment" >
+            </div>    
+          </div> <!-- samekind -->
+
+          <div class="panel panel-default col-md-6" style="padding:0;">
+            <i class="fa fa-caret-left" style="float:right;padding-top:20%;padding-right:0;"></i>
+            <div class="panel-body " id="Dribbleinvite" style="background-color:#6A5FA4;height:170px;">
+              <span  style="float:right; padding-right:46%;padding-top:10%; font-size:30px;"><i class="fa fa-dribbble"></i> </span> <br />
+              <h4 class="dribbleinvite" style="color:white;text-align:center;clear: both;"> Dribble invitation</h4>
+            </div>
+          </div> <!-- samekind -->
+        </div>
+      
+
+
+        <div class="col-md-3">
+          <div class="panel panel-primary" id="weather">
+            <div class="panel-body " id="weather-body" style="background-color:#83DAF6;">
+              <div class="weatherdiv">
+                <section class="weatherintro" style="color:white;">
+                  <p id="weathercity">McLean,VA <span style="float:right;color:white"><i class="fa fa-map-marker"></i> </span> </p>
+                  <p style="float:right; padding-right:35%; font-size:30px;"><span  ><i class="fa fa-cloud " style="color:white;"></i> </span> 68 &#176; </p>
+                </section>
+              </div>
+            </div>
+           <div class="panel-footer" id="weather-footer" style="background-color:#6FD3F3;padding-bottom:50px;">
+                  <section class="col-xs-4">
+                    <p>Humidity <br />
+                     56% </p>
+                  </section>
+                  <section class="col-xs-4">
+                    <p>Humidity <br />
+                     56% </p>
+                  </section>
+                  
+                  <section class="col-xs-4">
+                    <p>Humidity  <br />
+                     56% </p>
+                  </section>
+                  
+            </div>
+          </div>
+
+          <div class="panel panel-default" id="sales" >
+            <div class="panel-body " id="sales-body"  style="background-color:#A6D77B;">
+              <div class="salesdiv">
+                <section class="salesintro">
+                  <p id="salesamt">&#36;540 <span style="float:right;color:black">Friday </span><br />+1/05(2.15%) </p>
+                  <svg viewBox="0 0 300 100" class="chart" >
+                    <polyline
+                       fill="none"
+                      stroke="#ffffff"
+                      stroke-width="3"
+                      points="
+                       0,120
+                      20,60
+                      40,80
+                    60,20 
+                    80,80
+                    100,80
+                     120,60
+                     140,100
+                    160,90
+                    180,80
+                    200, 110
+                    
+                    240, 70
+                    260, 100
+                    280, 100
+                    300, 40
+                    "/>
+                  </svg>
+                </section>
+                
+
+              </div>
+            </div>
+           <div class="panel-footer" id="weather-footer" style="padding-bottom:60px;">
+                <p> sales in june: <br /> &#36;2500.00 </p>
+                  <section class="col-xs-4 ">
+                    <p>Referal: <br />
+                     &#36;56 </p>
+                  </section>
+                  <section class="col-xs-4 ">
+                    <p>Referal: <br />
+                     &#36;56 </p>
+                  </section>
+                  
+                  <section class="col-xs-4 ">
+                    <p>Affiliate  <br />
+                     &#36;56 </p>
+                  </section>
+                  
+            </div>
+          </div>
+        </div>
+ 			</div>
+ 		</div>
+  </div>
+
+
+ 		<script src="js/bootstrap.min.js"> </script>
+ 	</body>
+</html>

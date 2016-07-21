@@ -1,0 +1,186 @@
+.container {
+	
+	margin-left:20px;
+	width:95%;
+	border:1px solid white;
+	height:900px;
+}
+
+.menu-headimg {
+	width:25%;
+	float:left;
+	border:1px solid white;
+	padding:10px;
+	height:50px;
+}
+
+.menu-navbar {
+	width:70%;
+	border:1px solid white;
+	height:50px;
+	
+	float:right;
+
+}
+
+nav > ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #F30;
+
+}
+
+nav >ul > li {
+    float: left;
+    border-right: 1px solid #F50;
+
+}
+
+li:last-child {
+    border-right: none;
+}
+
+nav >ul > li> a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 40px;
+    text-decoration: none;
+}
+
+nav >ul > li> li a:hover:not(.active) {
+    background-color: #FA2C02;
+}
+
+.active {
+    background-color: #FA1919;
+}
+
+.image-slider {
+	padding: 5px;
+	width:100%;
+	border:1px solid white;
+	height:250px;
+	clear:both;
+}
+
+.main-desc {
+	width:100%;
+	border: 1px solid white;
+	height:auto;
+	padding:2px;
+}
+
+.main-article {
+	text-align: center;
+}
+
+.svg-holder {
+
+	padding-bottom: 10px;
+}
+.article-section {
+	width: 100%;
+	-webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+    column-rule-style: solid;
+    border:1px solid white;
+    height:190px;
+   
+}
+
+.article-content {
+
+	margin-left: 20px !important; 
+	max-width: 350px;
+}
+
+.article-header {
+
+	padding-bottom:10px;
+}
+
+
+h3 {
+
+	margin-top: 0px !important;
+    margin-bottom: 0px !important;
+}
+
+.figure-desc {
+	border: 1px solid white;
+	width:65%;
+	height:250px;
+	float:left;
+	overflow: hidden;
+
+}
+
+#fig-align {
+	text-align: center;
+	font-size: 24px;
+}
+
+.service-aside {
+	margin-top: 30px;
+	float:right;
+	width:30%;
+	height:auto;
+	padding:5px;
+}
+
+aside > ul {
+	list-style-type: none;
+}
+
+#heading-align {
+	font-size: 18px;
+
+
+	padding-left: 25px;
+}
+.footer-head {
+	clear:both;
+	width:100%;
+	height:auto;
+	margin-left:10px;
+	margin-top: 10px;
+
+}
+
+.footer-heading {
+	padding-top:10px;
+	width:90%;
+	float:left;
+	padding-left: 20px;
+	font-size: 18px;
+	
+}
+
+.footer-scrollbtn {
+	
+	display: inline;
+	width:10%;
+	float:right;
+}
+
+.footer-img {
+	clear:both;
+	-webkit-column-count: 6; /* Chrome, Safari, Opera */
+    -moz-column-count: 6; /* Firefox */
+    column-count: 6;
+     column-rule-style: solid ;
+    display: inline;
+   
+
+
+}
+
+.facolor {
+
+	background-color: blue;
+}
+
